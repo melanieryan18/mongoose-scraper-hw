@@ -11,6 +11,6 @@ const NoteSchema = new Schema({
     }
 })
 
-var Note = moongoose.model("Note", NoteSchema)
+var Note = mongoose.model("Note", NoteSchema)
 
 module.exports = Note;

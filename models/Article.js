@@ -14,12 +14,12 @@ const ArticleSchema = new Schema({
         type: String,
         required: true
     },
-    saved: {
+    wanted: {
         type: Boolean,
         default: false
     },
     note: {
-        type: Schema.Types.ObjectID,
+        type: Schema.Types.ObjectId,
         ref: "Note"
     }
 })
