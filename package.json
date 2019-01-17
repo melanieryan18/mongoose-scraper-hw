@@ -1,5 +1,5 @@
 {
-  "name": "mongoose-scraper",
+  "name": "mongoose-scraper-hw",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,17 +9,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/melanieryan18/mongoose-scraper.git"
+    "url": "git+https://github.com/melanieryan18/mongoose-scraper-hw.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/melanieryan18/mongoose-scraper/issues"
+    "url": "https://github.com/melanieryan18/mongoose-scraper-hw/issues"
   },
-  "homepage": "https://github.com/melanieryan18/mongoose-scraper#readme",
+  "homepage": "https://github.com/melanieryan18/mongoose-scraper-hw#readme",
   "dependencies": {
-    "express": "^4.16.4"
-    ""
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.4.4",
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2"
   }
 }
